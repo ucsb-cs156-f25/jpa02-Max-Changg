@@ -2,12 +2,6 @@
 
 Repo: https://github.com/ucsb-cs156-f25/jpa02-Max-Changg
 
-* TODO: Correct the "deployed at" link to app on Dokku
-  then delete this TODO.  Replace it with 
-  a link to your running app on Dokku, e.g.
-  https://jpa02-cgaucho.dokku-14.cs.ucsb.edu
-
-
 Deployed at: https://jpa02-max-changg.dokku-04.cs.ucsb.edu
 
 
