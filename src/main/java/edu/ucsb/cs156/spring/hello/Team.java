@@ -67,12 +67,15 @@ public class Team {
      */
     @Override
     public boolean equals(Object obj) {
+        // Case 1: these are the same object
         if (obj == this) {
             return true;
         }
+        // Case 2: the other object isn't even an instance of this class
         if (!(obj instanceof Team)) {
             return false;
         }
+        // Case 3: Cast the other object to this class, and compare all of the fields
         Team other = (Team) obj;
         return this.name.equals(other.name) && this.members.equals(other.members);
     }
