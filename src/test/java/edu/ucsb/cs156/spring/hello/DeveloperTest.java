@@ -29,7 +29,7 @@ public class DeveloperTest {
     // 100% mutation coverage (all mutants timed out or killed)
     @Test 
     public void getGithubId_returns_correct_githubId() {
-        assertEquals("max-changg", Developer.getGithubId());
+        assertEquals("Max-Changg", Developer.getGithubId());
     }
 
     @Test
@@ -42,12 +42,10 @@ public class DeveloperTest {
     public void getTeam_returns_team_with_correct_members() {
         Team  t = Developer.getTeam();
         assertTrue(t.getMembers().contains("Ajay"),"Team should contain Ajay");
-        assertTrue(t.getMembers().contains("Anthony"),"Team should contain Anthony");
+        assertTrue(t.getMembers().contains("Anthony Herbert"),"Team should contain Anthony");
         assertTrue(t.getMembers().contains("Chiran"),"Team should contain Chiran");
-        assertTrue(t.getMembers().contains("Dave"),"Team should contain Dave");
-        assertTrue(t.getMembers().contains("Max"),"Team should contain Max");
-        assertTrue(t.getMembers().contains("Ryan"),"Team should contain Ryan");
-
-
+        assertTrue(t.getMembers().contains("Dave S"),"Team should contain Dave");
+        assertTrue(t.getMembers().contains("Max Lee"),"Team should contain Max");
+        assertTrue(t.getMembers().contains("Ryan Lee"),"Team should contain Ryan");
     }
 }
